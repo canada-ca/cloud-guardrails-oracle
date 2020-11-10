@@ -1,0 +1,15 @@
+[DEFAULT]
+key_file=/Users/ludovicdessemon/.oci/oci_api_key.pem
+user=ocid1.user.oc1..aaaaaaaa2p7jiheedlthv4yn4y3ktjy7rbbmxzuubb5vpzx7nmjlgbgquqgq
+tenancy=ocid1.tenancy.oc1..aaaaaaaakz5tsxieaewv5e7fejckmsls7beh6zygnvottfqa3xxf4q7jgboq
+fingerprint=be:d2:b9:27:42:c8:72:cc:76:77:6b:fd:43:0b:5c:8b
+region=ca-toronto-1
+[agadir2]
+key_file=/Users/ludovicdessemon/.oci/oci_api_key.pem
+user=ocid1.user.oc1..aaaaaaaatdd6kgiuxjwh76invnimga4jvvb45rmw7hl3o4ku374paywqwjlq
+tenancy=ocid1.tenancy.oc1..aaaaaaaapvhkbglfugrz2yf2gaqbz52gq3hsl46rhmibjcl5ugcwb4y5sglq
+fingerprint=be:d2:b9:27:42:c8:72:cc:76:77:6b:fd:43:0b:5c:8b
+region=ca-toronto-1
+idcs_client_id=830d17bbecda4b3786abfa78d9c40ccf
+idcs_client_secret=03745c6e-aa49-4b16-a5f0-ff52022189d0
+idcs_base_url=https://idcs-cbe29eddf227485398753938dc030b31.identity.oraclecloud.com
