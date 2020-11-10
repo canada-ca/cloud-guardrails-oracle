@@ -1,3 +1,0 @@
-PROFILE,ACCOUNT_NUM,REGION,TITLE_ID,RESULT,SCORED,LEVEL,TITLE_TEXT,NOTES
-default,,ca-toronto-1,0.0,INFO,Not Scored,Support,Show report generation info,ARN:   TIMESTAMP: 2020-11-04T13:30:02+0000
-default,,ca-toronto-1,0.0,FAIL,Not Scored,Support,Show report generation info,Use a valid check group ID i.e.: group1, extras, forensics-ready, etc.
