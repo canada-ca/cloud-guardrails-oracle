@@ -1,10 +1,14 @@
-# GC Cloud Guardrails Checks for Oracle
+# GC Cloud Guardrails for Oracle
 
-This project will host the minimum guardrails as part of the GC Cloud Operationalization Framework for Oracle. 
+This project will host the minimum guardrails as part of the GC Cloud Operationalization Framework for Oracle. Oracle Cloud Infrastructure (OCI) is an approved Cloud Service Provider.
 
-These guardrails enable the GC's Cloud First direction and support for the GC Digital Standards.
+The purpose of the guardrails is to ensure that departments and agencies are implementing a preliminary baseline set of controls within their cloud-based environments. 
 
-The users of this project will be Government of Canada employees deploying cloud-based workloads.
+These minimum guardrails are to be implemented within the GC-specified initial period (e.g. 30 days) upon receipt of an enrollment under the GC Cloud Services Framework Agreement.
+
+This document provides a brief overview of each applicable guardrail and instructions on how to implement them when using OCI.
+
+OCI Prowler is a command-line tool that can be used to validate the guardrails implementation.
 
 ## How to Contribute
 
@@ -17,10 +21,17 @@ Unless otherwise noted, the source code of this project is covered under Crown C
 The Canada wordmark and related graphics associated with this distribution are protected under trademark law and copyright law. No permission is granted to use them outside the parameters of the Government of Canada's corporate identity program. For more information, see [Federal identity requirements](https://www.canada.ca/en/treasury-board-secretariat/topics/government-communications/federal-identity-requirements.html).
 
 ______________________
+ 
+# Mesures de sécurité du nuage pour Oracle
 
-# GC Cloud Guardrails Checks for Oracle
+Ce projet hébergera les garde-corps minimums dans le cadre de l’opérationnalisation de l’informatique en nuage du GC pour Oracle. Oracle Cloud Infrastructure (OCI) est un fournisseur de services cloud approuvé.
 
-TBD
+Le but des garde-corps est de garantir que les ministères et organismes mettent en œuvre un ensemble de base de contrôle préliminaire dans leurs environnements cloud.
+Ces garde-corps minimaux doivent être mis en œuvre au cours de la période initiale spécifiée par le GC (par exemple, 30 jours) à la réception d'une inscription en vertu de l'Accord-cadre des services cloud du GC.
+
+Ce document fournit un bref aperçu de chaque garde-corps applicable et des instructions sur la façon de les mettre en œuvre lors de l'utilisation d'OCI.
+
+OCI Prowler est un outil de ligne de commande qui peut être utilisé pour valider l’implémentation des garde-corps.
 
 ## Comment contribuer
 
