@@ -6,7 +6,7 @@ The purpose of the guardrails is to ensure that departments and agencies are imp
 
 These minimum guardrails are to be implemented within the GC-specified initial period (e.g. 30 days) upon receipt of an enrollment under the GC Cloud Services Framework Agreement.
 
-This [document](./docs/Guardrails Implementation Guidance for Oracle Cloud - EN (Dec 2020).pdf) provides a brief overview of each applicable guardrail and instructions on how to implement them when using OCI.
+This [document](cloud-guardrails-oracle/docs/Guardrails Implementation Guidance for Oracle Cloud - EN (Dec 2020).pdf) provides a brief overview of each applicable guardrail and instructions on how to implement them when using OCI.
 
 OCI Prowler is a command-line tool that can be used to validate the guardrails implementation.
 
