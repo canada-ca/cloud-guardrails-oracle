@@ -6,9 +6,9 @@ The purpose of the guardrails is to ensure that departments and agencies are imp
 
 These minimum guardrails are to be implemented within the GC-specified initial period (e.g. 30 days) upon receipt of an enrollment under the GC Cloud Services Framework Agreement.
 
-This [document](/cloud-guardrails-oracle/docs/Guardrails Implementation Guidance for Oracle Cloud - EN (Dec 2020).pdf) provides a brief overview of each applicable guardrail and instructions on how to implement them when using OCI.
+This [document](https://github.com/canada-ca/cloud-guardrails-oracle/blob/main/docs/Guardrails%20Implementation%20Guidance%20for%20Oracle%20Cloud%20-%20EN%20(Dec%202020).pdf) provides a brief overview of each applicable guardrail and instructions on how to implement them when using OCI.
 
-OCI Prowler is a command-line tool that can be used to validate the guardrails implementation.
+[OCI Prowler](https://github.com/canada-ca/cloud-guardrails-oracle/blob/main/docs/OCI%20Cloud%20Guardrails%20-%20EN.pdf) is a command-line tool that can be used to validate the guardrails implementation.
 
 ## How to Contribute
 
@@ -29,9 +29,9 @@ Ce projet hébergera les garde-corps minimums dans le cadre de l’opérationnal
 Le but des garde-corps est de garantir que les ministères et organismes mettent en œuvre un ensemble de base de contrôle préliminaire dans leurs environnements cloud.
 Ces garde-corps minimaux doivent être mis en œuvre au cours de la période initiale spécifiée par le GC (par exemple, 30 jours) à la réception d'une inscription en vertu de l'Accord-cadre des services cloud du GC.
 
-Ce document fournit un bref aperçu de chaque garde-corps applicable et des instructions sur la façon de les mettre en œuvre lors de l'utilisation d'OCI.
+Ce [document](https://github.com/canada-ca/cloud-guardrails-oracle/blob/main/docs/Guardrails%20Implementation%20Guidance%20for%20Oracle%20Cloud%20-%20FR%20(Dec%202020).pdf) fournit un bref aperçu de chaque garde-corps applicable et des instructions sur la façon de les mettre en œuvre lors de l'utilisation d'OCI.
 
-OCI Prowler est un outil de ligne de commande qui peut être utilisé pour valider l’implémentation des garde-corps.
+[OCI Prowler](https://github.com/canada-ca/cloud-guardrails-oracle/blob/main/docs/OCI%20Cloud%20Guardrails%20-%20FR.pdf) est un outil de ligne de commande qui peut être utilisé pour valider l’implémentation des garde-corps.
 
 ## Comment contribuer
 
