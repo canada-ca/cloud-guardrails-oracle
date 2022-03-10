@@ -9,7 +9,7 @@ These minimum guardrails are to be implemented within the GC-specified initial p
 This [document](https://github.com/canada-ca/cloud-guardrails-oracle/blob/main/docs/Guardrails%20Implementation%20Guidance%20for%20Oracle%20Cloud%20-%20EN%20(Dec%202020).pdf) provides a brief overview of each applicable guardrail and instructions on how to implement them when using OCI.
 
 For a quicker way to deploy a secure environment fit for the Guardrails on OCI, be sure to use the OCI Landing Zone accelerator.
-See [OCI Landing Zone Quickstart](https://github.com/eBassey/cloud-guardrails-oracle/tree/main/oci-cis-landingzone-quickstart)
+See [OCI Landing Zone Quickstart](https://github.com/canada-ca/cloud-guardrails-oracle/tree/main/oci-cis-landingzone-quickstart)
 
 [OCI Prowler](https://github.com/canada-ca/cloud-guardrails-oracle/blob/main/docs/OCI%20Cloud%20Guardrails%20-%20EN.pdf) is a command-line tool that can be used to validate the guardrails implementation.
 
