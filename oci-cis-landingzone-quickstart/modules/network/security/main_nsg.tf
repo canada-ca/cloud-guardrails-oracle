@@ -2,7 +2,6 @@
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 
 ## Network Security Group(s) - NSGs
-
 locals {
   nsgs = { for nsg in oci_core_network_security_group.these : nsg.display_name => nsg }
   ingress_rules = flatten([
@@ -52,6 +51,8 @@ resource "oci_core_network_security_group" "these" {
     compartment_id = var.compartment_id
     vcn_id         = each.value.vcn_id
     display_name   = each.key
+    defined_tags   = each.value.defined_tags
+    freeform_tags  = each.value.freeform_tags
 }
 
 data "oci_core_network_security_groups" "these" {
@@ -62,7 +63,7 @@ data "oci_core_network_security_groups" "these" {
 
 locals {
   local_nsg_ids  = { for i in oci_core_network_security_group.these : i.display_name => i.id }
-  remote_nsg_ids = { for k,v in var.nsgs : k => [for i in data.oci_core_network_security_groups.these[k].network_security_groups : i.id]}
+  remote_nsg_ids = { for k,v in var.nsgs : k => [for i in data.oci_core_network_security_groups.these[k].network_security_groups : i.id] if contains(keys(data.oci_core_network_security_groups.these),k)}
   nsg_ids        = merge(local.remote_nsg_ids, local.local_nsg_ids)
 }
 

@@ -4,7 +4,10 @@
 variable "compartments" {
   type = map(object({
     parent_id     = string
+    name          = string
     description   = string
     enable_delete = string
+    defined_tags  = map(string) 
+    freeform_tags = map(string) 
   }))
 }  

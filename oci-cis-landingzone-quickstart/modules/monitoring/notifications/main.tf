@@ -1,6 +1,14 @@
 # Copyright (c) 2020 Oracle and/or its affiliates.
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 
+terraform {
+  required_providers {
+    oci = {
+      source = "oracle/oci"
+    }
+  }
+}
+
 /* resource "oci_events_rule" "this" {
     actions {
         actions {
@@ -36,4 +44,5 @@ resource "oci_events_rule" "these" {
     is_enabled     = each.value.is_enabled
     description    = each.value.description
     defined_tags   = each.value.defined_tags
+    freeform_tags  = each.value.freeform_tags
 }
