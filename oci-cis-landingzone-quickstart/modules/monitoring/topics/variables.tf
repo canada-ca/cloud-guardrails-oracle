@@ -19,9 +19,43 @@ variable "notification_topic_description" {
   default     = ""
 }
 
+variable "defined_tags" {
+  type        = map(string)
+  description = "Map of key-value pairs of defined tags. (Optional)"
+  default     = null
+}
+
+variable "freeform_tags" {
+  type        = map(string)
+  description = "Map of key-value pairs of freeform tags. (Optional)"
+  default     = null
+}
+
+variable "subscriptions" {
+  type = map(object({
+    defined_tags = map(string)
+    protocol     = string
+    endpoint     = string
+  }))
+}  
+
+/* variable "topics" {
+  type = map(object({
+    compartment_id = string
+    name = string
+    description = string
+    defined_tags = map(string)
+    freeform_tags = map(string)
+  }))
+}
+
 variable "subscriptions" {
   type = map(object({
     protocol = string
     endpoint = string
+    compartment_id = string
+    topic_key = string
+    defined_tags = map(string)
+    freeform_tags = map(string)
   }))
-}  
+} */
